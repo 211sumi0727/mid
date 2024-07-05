@@ -1,0 +1,94 @@
+body {
+    background-image: url("https://www.ualberta.ca/youalberta/media-library/2023/03/skincare.jpg");
+    backdrop-filter: blur(2px);
+    
+    margin: 0;
+    padding: 0;
+    
+}
+
+header {
+    background-color: #ff4081;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    font-family: "Indie Flower", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.simple-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #e77fdb;
+    padding: 10px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin: 0 10px;
+}
+
+.nav-links a {
+    color: #e77fdb;
+    text-decoration: none;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: "Indie Flower", cursive;
+    font-weight: 400;
+    font-style: normal; 
+}
+
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 1cm;
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 70;
+    font-style: normal;
+}
+
+.footer-links,
+.social-media {
+    list-style: none;
+    padding: 0;
+    margin: 0 10px 0;
+}
+
+.footer-links li,
+.social-media li {
+    margin:  10px;
+}
+
+.footer-links a,
+.social-media a {
+    color: #ff4081;
+    text-decoration: none;
+}
+
+

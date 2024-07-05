@@ -1,0 +1,126 @@
+
+.simple-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #e77fdb;
+    padding: 10px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin: 0 10px;
+}
+
+.nav-links a {
+    color: #e77fdb;
+    text-decoration: none;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+body {
+    background-image: url("https://www.ualberta.ca/youalberta/media-library/2023/03/skincare.jpg");
+    backdrop-filter: blur(2px);
+  }
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+
+header {
+    background-color: #ff4081;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+    font-size: 2em;
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.flexphotos {
+    display: flex;
+    justify-content: space-between;
+}
+.photo img {
+    width: 600px;
+    height: 300px;
+    box-shadow: 4px 6px 3px grey;
+    border-radius: 20px;
+    border: 4px solid rgb(205, 209, 213);
+    
+}
+
+
+.photo2 img {
+    width: 600px;
+    height: 300px;
+    box-shadow: 4px 6px 3px grey;
+    border-radius: 20px;
+    border: 4px solid rgb(214, 156, 183);
+    mix-blend-mode: hue;
+    
+}
+
+.about{
+    border: 2px solid rgb(52, 27, 139);
+    background-color: rgb(230, 158, 238);
+    box-shadow: 4px 6px 3px grey;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: "Indie Flower", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.categories{
+    border: 2px solid rgb(52, 27, 139);
+    background-color: rgb(227, 141, 201);
+    box-shadow: 4px 6px 3px grey;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: "Indie Flower", cursive;
+    font-weight: 400;
+    font-style: normal;
+
+}
+.review{
+    border: 2px solid rgb(52, 27, 139);
+    background-color: rgb(209, 135, 190);
+    box-shadow: 4px 6px 3px grey;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: "Indie Flower", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.special-offers{
+    border: 2px solid rgb(52, 27, 139);
+    background-color: rgb(220, 142, 213);
+    box-shadow: 4px 6px 3px grey;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: "Indie Flower", cursive;
+    font-weight: 400;
+    font-style: normal;
+}

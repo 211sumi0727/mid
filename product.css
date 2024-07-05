@@ -1,0 +1,125 @@
+body {
+    
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    background-image: url("https://www.ualberta.ca/youalberta/media-library/2023/03/skincare.jpg");
+    backdrop-filter: blur(2px);
+}
+
+header {
+    background-color: #ff4081;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 1cm;
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 70;
+    font-style: normal;
+}
+
+.simple-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #e77fdb;
+    padding: 10px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin: 0 10px;
+}
+
+.nav-links a {
+    color: #e77fdb;
+    text-decoration: none;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.product-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.product-item {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    width: 45%;
+    box-sizing: border-box;
+}
+
+.product-item img {
+    max-width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 15px;
+}
+
+.product-item  {
+    color: #ff4081;
+    font-size: 18px;
+    margin: 15px 0;
+}
+
+.product-item  {
+    font-size: 16px;
+    color: #333;
+}
+
+.product-item button {
+    background-color: #ff4081;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.product-item button:hover {
+    background-color: #e3396f;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-family: "Indie Flower", cursive;
+    font-weight: 400;
+    font-style: normal;
+   
+}
+
+
